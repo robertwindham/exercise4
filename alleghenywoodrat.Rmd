@@ -90,7 +90,7 @@ ggplot(woodrat, aes(Isolation, TN1)) +
   geom_smooth(method="glm", method.args=list(family="quasibinomial"(link="logit"))) +
   labs(title="Woodrat (presence/absence) TN1") +
   ylab ("Probability of Occurrence") +
-  xlab ("Distance to nearest neighboring outcrop (m)")
+  xlab ("Distance to nearest neighboring occupied outcrop (m)")
 ```
 
 ## TN2 GLM Plot
@@ -101,7 +101,7 @@ ggplot(woodrat, aes(Isolation, TN2)) +
   geom_smooth(method="glm", method.args=list(family="quasibinomial"(link="logit"))) +
   labs(title="Woodrat (presence/absence) TN2") +
   ylab ("Probability of Occurrence") +
-  xlab ("Distance to nearest neighboring outcrop (m)")
+  xlab ("Distance to nearest neighboring occupied outcrop (m)")
 ```
 
 ## TN3 GLM Plot
@@ -112,7 +112,7 @@ ggplot(woodrat, aes(Isolation, TN3)) +
   geom_smooth(method="glm", method.args=list(family="quasibinomial"(link="logit"))) +
   labs(title="Woodrat (presence/absence) TN3") +
   ylab ("Probability of Occurrence") +
-  xlab ("Distance to nearest neighboring outcrop (m)")
+  xlab ("Distance to nearest neighboring occupied outcrop (m)")
 ```
 
 
@@ -123,7 +123,7 @@ ggplot(woodrat, aes(Isolation, TN4)) +
   geom_smooth(method="glm", method.args=list(family="quasibinomial"(link="logit"))) +
   labs(title="Woodrat (presence/absence) TN4") +
   ylab ("Probability of Occurrence") +
-  xlab ("Distance to nearest neighboring outcrop (m)")
+  xlab ("Distance to nearest neighboring occupied outcrop (m)")
 ```
 
 # Binomial and Quasibinomial summary models
